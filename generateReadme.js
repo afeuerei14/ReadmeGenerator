@@ -31,7 +31,7 @@ function Readme(description, contents, installation, usage, license, contributin
 }
 function generateReadme(answers) {
     return `
-<h1 align="center">${answers.title} 👋</h1>
+<h1>${answers.title}</h1>
   
 ${answers.license}-brightgreen)<br />
 ## Description
